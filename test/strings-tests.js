@@ -286,7 +286,7 @@ describe('strings-tasks', () => {
     );
   });
 
-  it.optional('encodeToRot13 should encode-decode string using ROT13 algorithm', () => {
+  it.optional('encodeToRot13 should encode-encryptione string using ROT13 algorithm', () => {
     assert.equal(tasks.encodeToRot13('hello'), 'uryyb');
     assert.equal(tasks.encodeToRot13('Why did the chicken cross the road?'), 'Jul qvq gur puvpxra pebff gur ebnq?');
     assert.equal(tasks.encodeToRot13('Gb trg gb gur bgure fvqr!'), 'To get to the other side!');
